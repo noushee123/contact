@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    padding-top: 20px;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+h2{
+    text-align: left;
+}
+p{
+    color: #999999;
+    font-size: 20px;
+}
+h3{
+    font-size: 25px;
+}
+.invite{
+    display:flex;
+    font-size: 25px;
+    flex-direction: row;
+}
+.contact-left{
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    font-size: 30px;
+    padding: 80px;
+}
+.contact-right{
+    width: 600px;
+    height: 650px;
+    background: #f8f8ff;
+    box-shadow: -1px 1px 28px 12px rgba(191,185,191,1);
+}
+.container{
+    background: #fff;
+    width: 100%;
+    height: 800px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-item: center;
+}
+span{
+    color:  #7b68ee;
+}
+.row{
+    display: flex;
+    margin: auto;
+    gap: 100px;
+}
+input{
+    margin-top: 20px;
+    background: #cccff;
+    border-radius: 10px;
+    font-size: 20px;
+    padding-left: 5px;
+    border-style: solid;
+    border-width: thin;
+}
+.first{
+    height: 60px;
+    width: 275px;
+}
+.last{
+    height: 60px;
+    width: 275px;
+}
+.email{
+    height: 60px;
+    width: 550px;
+}
+.jobtitle{
+    height: 60px;
+    width: 550px;
+}
+.password{
+    height: 60px;
+    width: 550px;
+}
+label{
+    font-size: 20px;
+    margin-top:30px;
+}
+.check{
+    width: 20px;
+    height: 20px;
+    accent-color: #1e90ff;
+}
+.box{
+    padding-left: 30px;
+    text-align: left;
+}
+button{
+    background: #7b68ee;
+    height: 60px;
+    width: 550px;
+    font-size: 25px;
+    border-radius: 5px;
+    border-width: thin;
+}
+img{
+    width:55px;
+    height:50px;
+    text-align: left;
+    border-radius: 50%;
+}
+.cls{
+    margin-top:10px;
+    margin-left : 5px;
+}
+.clss{
+    margin-top:13px;
+    margin-left : 5px ;
+}
